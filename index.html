@@ -74,7 +74,7 @@
             Sign up
           </button>
         </div>
-        <button>
+        <button class="p-4 md:hidden" id="mobile-menu-toggle">
           <svg
             fill="none"
             viewBox="0 0 24 24"
@@ -123,6 +123,13 @@
   <div class="w-full bg-green-500">
     <!-- Full-width footer container with green background -->
   </div>
+  <script>
+    document
+      .getElementById("mobile-menu-toggle")
+      .addEventListener("click", function () {
+        alert("Hello!");
+      });
+  </script>
   <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
