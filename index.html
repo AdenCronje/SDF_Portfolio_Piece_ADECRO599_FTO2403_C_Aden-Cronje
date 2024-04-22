@@ -732,7 +732,9 @@
       <!-- grid container -->
       <div class="container flex flex-col items-center gap-16 mx-auto my-32">
         <!-- Card List -->
-        <div class="grid w-full grid-cols-1 gsp-5">
+        <div
+          class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
+        >
           <!-- Card -->
           <div
             class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main"
@@ -753,7 +755,6 @@
             <p class="text-base leading-7 text-dark-grey-600">Contact us at</p>
             <p
               class="text-lg font-bold text-green-500"
-              target="blank"
               href="mailto: hello@loople.com"
             >
               hi@cachebank.com
@@ -806,12 +807,13 @@
             <p class="text-base leading-7 text-dark-grey-600">
               Find us at our office
             </p>
-            <p
+            <a
               class="text-lg font-bold text-green-500"
-              href="mailto: hello@loople.com"
+              target="_blank"
+              href=" https://www.google.com/maps/place/Cape+Town/@-33.915538,18.6560594,9z/data=!3m1!4b1!4m6!3m5!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!8m2!3d-33.922087!4d18.4231418!16zL20vMDF5ajI?entry=ttu"
             >
               15 Tech Alley, Cape Town
-            </p>
+            </a>
           </div>
         </div>
       </div>
@@ -821,6 +823,9 @@
   <!-- Footer -->
   <div class="w-full bg-green-500">
     <!-- Full-width footer container with green background -->
+    <div class="container flex flex-col mx-auto ">
+      <div class="flex flex-col"></div>
+    </div>
   </div>
   <script>
     document
